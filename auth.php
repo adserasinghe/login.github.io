@@ -1,9 +1,9 @@
 <?php
 session_start();
-$DATABASE_HOST = 'mysql-11-10-adserasinghe.f.aivencloud.com';
-$DATABASE_USER = 'avnadmin';
-$DATABASE_PASS = 'AVNS_7YdXCnU7qGyOILgsZRd';
-$DATABASE_NAME = 'defaultdb';
+$DATABASE_HOST = 'sql110.infinityfree.com';
+$DATABASE_USER = 'if0_36822891';
+$DATABASE_PASS = '#Adsads2002#';
+$DATABASE_NAME = 'if0_36822891_adserasingheDB';
 $conn='index.php';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
