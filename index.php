@@ -14,9 +14,9 @@
             <h1 class="form__title">Log in to your Account</h1>
             <p class="form__description">Welcome back! Please, enter your information</p>
 
-            <form method="post" action="db.php">
-                <label class="form-control__label">Email</label>
-                <input type="email" name="email" class="form-control">
+            <form method="post" action="auth.php">
+                <label class="form-control__label">Username/Email</label>
+                <input type="email" name="username" class="form-control">
         
                 <label class="form-control__label">Password</label>
                 <div class="password-field">
