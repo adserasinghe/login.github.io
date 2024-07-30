@@ -1,5 +1,6 @@
 <?php
 session_start();
+$DATABASE_URL='https://php-myadmin.net/db_structure.php?db=if0_36822891_adserasingheDB';
 $DATABASE_HOST = 'mysql-11-10-adserasinghe.f.aivencloud.com';
 $DATABASE_USER = 'avnadmin';
 $DATABASE_PASS = 'AVNS_7YdXCnU7qGyOILgsZRd';
