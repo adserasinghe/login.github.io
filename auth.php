@@ -1,11 +1,10 @@
 <?php
 session_start();
-$DATABASE_URL='https://php-myadmin.net/db_structure.php?db=if0_36822891_adserasingheDB';
+$DATABASE_URL='mysql://CLICK_TO:REVEAL_PASSWORD@mysql-11-10-adserasinghe.f.aivencloud.com:11131/defaultdb?ssl-mode=REQUIRED';
 $DATABASE_HOST = 'mysql-11-10-adserasinghe.f.aivencloud.com';
 $DATABASE_USER = 'avnadmin';
 $DATABASE_PASS = 'AVNS_7YdXCnU7qGyOILgsZRd';
 $DATABASE_NAME = 'defaultdb';
-$conn='conn.php';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
