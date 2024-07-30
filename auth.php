@@ -4,7 +4,7 @@ $DATABASE_HOST = 'sql110.infinityfree.com';
 $DATABASE_USER = 'if0_36822891';
 $DATABASE_PASS = 'y1MCh5Hfm1L';
 $DATABASE_NAME = 'accounts';
-$conn='index.php';
+$conn='conn.php';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if ( mysqli_connect_errno() ) {
 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
