@@ -40,7 +40,7 @@
             </form>
         
             <p class="form__footer">
-                Don't have an account?<br> <a href="#">Create an account</a>
+                Don't have an account?<br> <a href=" https://adserasinghe.github.io/register.github.io/">Create an account</a>
             </p>
         </section>
     </body>
